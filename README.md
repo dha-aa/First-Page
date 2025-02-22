@@ -3,25 +3,37 @@
 
 This is my first HTML page project. It is a simple **About Page** built using only HTML. No CSS or JavaScript is included.
 
-## How to Run
+## How to Clone and Run
 
-### Option 1: Open in Browser Directly
-1. Double-click the `index.html` file, and it will open in your web browser.
+### 1️⃣ Clone the Repository
+Open a terminal and run:
+```bash
+git clone https://github.com/dha-aa/First-Page.git
+```
 
-### Option 2: Run with Python HTTP Server
-If you want to run a local server using Python:
+### 2️⃣ Change Directory
+Move into the project folder:
+```bash
+cd First-Page
+```
 
-#### For Python 3:
+### 3️⃣ Run the HTML Page
+
+#### Option 1: Open Directly in Browser
+Simply double-click `index.html`, and it will open in your default web browser.
+
+#### Option 2: Run with Python HTTP Server
+To serve the HTML file on a local server, use **Python**:
+
+##### For Python 3:
 ```bash
 python3 -m http.server 8000
 ```
-
-#### For Python 2:
+##### For Python 2:
 ```bash
 python -m SimpleHTTPServer 8000
 ```
-
-Then, open your browser and go to:
+Now, open your browser and go to:
 ```
 http://localhost:8000
 ```
@@ -40,17 +52,5 @@ First-Page/
 
 ## Contact
 If you have any questions, feel free to reach out! 😊
-
 Email: dhannjaysingh2006@gmail.com
-```
 
----
-```
-```
-```
-```
-```
-```
-```
-```
-```
